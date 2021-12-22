@@ -1,0 +1,61 @@
+
+html{
+  font-family: 'Open sans', sans-serif;
+  min-height: 500px;
+  max-height: 1080px;
+  margin: auto;
+  min-width: 700px;
+  max-width: 1920px;
+  background-image: url("images/wallpaper1.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.flex-main {
+ height : 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.main-title {
+    color: #3a4e93;
+    font-size: 100px;
+    margin-top: 100px;
+}
+
+pre {
+ margin: 0;
+ text-decoration : none;
+
+}
+
+
+
+.nav-bar{
+ 
+ margin-top:275px;
+ display : flex;
+ flex-direction: row;
+ color: #e534eb;
+ justify-content: space-evenly;
+ align-items: center;
+ font-weight: lighter;
+ font-size: 50px; 
+
+
+
+}
+
+.nav-bar a{
+    text-decoration: none;
+
+}
+
+.separator {
+
+margin: 0.5rem;
+
+}
