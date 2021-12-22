@@ -21,9 +21,10 @@ html{
 }
 
 .main-title {
-    color: #3a4e93;
+    color: #8fa0df;
     font-size: 100px;
-    margin-top: 100px;
+    margin-top: 10%;
+    margin-right: 8%;
 }
 
 pre {
@@ -39,19 +40,26 @@ pre {
  margin-top:275px;
  display : flex;
  flex-direction: row;
- color: #e534eb;
+ color:#e534eb;
  justify-content: space-evenly;
  align-items: center;
  font-weight: lighter;
  font-size: 50px; 
-
+  
 
 
 }
 
-.nav-bar a{
-    text-decoration: none;
 
+ a:link{
+    text-decoration: none;
+    color:#e534eb;
+}
+a:hover{
+    color:#af18b4;
+}
+a:visited{
+    color:#660469;
 }
 
 .separator {
