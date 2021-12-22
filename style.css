@@ -2,10 +2,10 @@
 html{
   font-family: 'Open sans', sans-serif;
   min-height: 500px;
-  max-height: 1080px;
+  max-height: 800px;
   margin: auto;
   min-width: 700px;
-  max-width: 1920px;
+  max-width: 1700px;
   background-image: url("images/wallpaper1.jpg");
   background-size: auto;
   background-repeat: no-repeat;
@@ -24,7 +24,7 @@ html{
     color: #8fa0df;
     font-size: 100px;
     margin-top: 10%;
-    margin-right: 8%;
+    margin-right: 3%;
 }
 
 pre {
@@ -37,7 +37,7 @@ pre {
 
 .nav-bar{
  
- margin-top:275px;
+ margin-top: 30%;
  display : flex;
  flex-direction: row;
  color:#e534eb;
