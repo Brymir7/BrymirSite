@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
 html{
-  font-family: 'Open sans', sans-serif;
+  
   margin: auto;
 }
 
@@ -42,10 +42,10 @@ html{
 
 .main-title2 {
     color:#8fa0df;
-    font-size: 20rem;
+    font-size: 15rem;
     font-family: 'Orbitron', sans-serif;
     margin-top: 5%;
-    margin-right: 5%;
+    
     padding: 0;
 }
 
@@ -80,7 +80,7 @@ pre {
     align-items: center;
     font-weight: lighter;
     font-size: 50px;
-     font-family: 'Orbitron', sans-serif;
+    font-family: 'Orbitron', sans-serif;
 
 }
 
@@ -92,9 +92,17 @@ pre {
 .nav-bar a:hover{
     color:#af18b4;
 }
-.nav-bar a:visited{
-    color:#660469;
+
+
+
+.another-bar a:link{
+    text-decoration: none;
+    color:#e534eb;
 }
+.another-bar a:hover{
+    color:#af18b4;
+}
+
 
 .separator {
 

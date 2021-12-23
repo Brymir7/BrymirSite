@@ -15,26 +15,30 @@
             </style> 
     </head>
     <body>
-        <script> function copy() {
-            var copyText = document.querySelector("#input");
-            copyText.select();
-            document.execCommand("copy");
+        <script type="text/javascript"> function copy() {
+            const copyToClipboard = str => {
+            const el = document.createElement('textarea');
+            el.value = str;
+            document.body.appenChild(el);
+            el.select();
+            document.execCommand('copy');
+            document.body.removeChild(el);
+
+            }
           }
-          
-          document.querySelector("#copy").addEventListener("click", copy);
           </script>
           
     <div class = "gobacklink"><a href="../index.html"> ฿ Ɽ Ɏ ₥ ł Ɽ </a></div>
     <div class ="flex-main">
     <div class ="main-title2">
-    <pre> Contacts</pre>
+    <a> Contacts </a>
     </div>
     <div class = "another-bar">
-          <a>G-Mail </a>
+          <a href="javascript: void(0);" onclick="copy();">G-Mail </a>
           <p class="separator">||</p>
-          <a>Discord</a>
+          <a href="javascript: copy()">Discord</a>
           <p class="separator">||</p>
-          <a>Number</a>  
+          <a href="javascript: copy()">Number</a>  
     </div>
     </div>
     
